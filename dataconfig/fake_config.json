@@ -1,0 +1,21 @@
+{
+  "fake_types": [
+    {
+      "fake_type": "name",
+      "column_name":"custom_name"
+    },
+    {
+      "fake_type": "address"
+    },
+    {
+      "fake_type": "phone_number"
+    },
+    {
+      "fake_type": "text",
+      "kwargs": {"max_nb_chars":20}
+    }
+  ],
+  "nrows": 80
+}
+
+

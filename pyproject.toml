@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "bqfdgn"
+version = "0.1.1"
+description = ""
+authors = ["Hamza SENHAJI RHAZI"]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.2.3"
+pandas-gbq = "^0.14.1"
+click = "^7.1.2"
+Faker = "^6.6.0"
+
+
+[tool.poetry.dev-dependencies]
+ipdb = "^0.13.6"
+Faker = "^6.6.0"
+autopep8 = "^1.5.5"
+pytest = "^6.2.2"
+
+[tool.poetry.scripts]
+cli="bin.run:cli"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
